@@ -1,0 +1,8 @@
+1、top_file.v为顶层模块，实现连接数据通路，top_sim.v为顶层仿真模块；
+2、display.v、displsy_led.v分别为控制数码管和led灯显示模块；
+3、display_ch.v为显示选择开关，可选择显示不同的内容（周期等）；
+4、ALU.v为运算器模块，control.v为控制信号产生模块，decoder.v为译码器模块，divider.v为分频器模块；
+5、dm.v为数据存储器，IM.v为指令存储器模块，regFile.v为寄存器模块；
+6、NPC.v为地址转移逻辑模块，PC.v为PC模块，extend.v为扩展器模块；
+7、select_5.v为5位数据宽选择器，select_32.v为32位数据宽选择器，reg.v为寄存器，以上均作为函数使用；
+8、statistics.v为统计模块，完成统计总周期数、条件跳转数等
